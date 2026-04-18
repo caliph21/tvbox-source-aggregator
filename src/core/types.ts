@@ -105,13 +105,13 @@ export interface SpeedTestResult {
   ip?: string;
 }
 
-// Worker 环境绑定
-export interface Env {
-  KV: KVNamespace;
-  ZBAPE_API_KEY: string;
-  REFRESH_TOKEN?: string;
-  ADMIN_TOKEN?: string;
-  SPEED_TIMEOUT_MS: string;
-  SITE_TIMEOUT_MS: string;
-  FETCH_TIMEOUT_MS: string;
+// 平台无关的应用配置
+export interface AppConfig {
+  adminToken?: string;
+  refreshToken?: string;
+  zbapeApiKey?: string;
+  speedTimeoutMs: number;
+  siteTimeoutMs: number;
+  fetchTimeoutMs: number;
+  cronSchedule?: string;
 }

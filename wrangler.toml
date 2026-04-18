@@ -1,5 +1,5 @@
 name = "tvbox-source-aggregator"
-main = "src/index.ts"
+main = "src/cf-entry.ts"
 compatibility_date = "2024-12-30"
 
 # 自定义域名（可选，推荐配置）
