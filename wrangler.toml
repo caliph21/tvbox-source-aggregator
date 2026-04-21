@@ -1,6 +1,6 @@
 name = "tvbox-source-aggregator"
 main = "src/cf-entry.ts"
-compatibility_date = "2026-4-17"
+compatibility_date = "2026-04-17"
 
 # 自定义域名（可选，推荐配置）
 # 取消注释并替换为你自己的域名和 Zone ID
